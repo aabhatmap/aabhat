@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    padding-top: 4vh;
+    padding-left: 12vw;
+    padding-right: 12vw;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    height: 12vh;
+    width: 76vw;
+    background-color: #f0f0f0;
+}
+
+#home {
+    font-size: 1.2em;
+}
+
+.nav {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    font-size: 1em;
+}
+
+.content {
+    margin-top: 16vh;
+    width: 76vw;
+}
+
+.imap {
+    justify-content: center;
+    align-items: center;
+}
+
+.fmap {
+    width: 48vw;
+    height: 36vw;
+    pointer-events: none;
+}
